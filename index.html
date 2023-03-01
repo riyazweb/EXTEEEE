@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Image Preview</title>
-    <script src="popup.js"></script>
-  </head>
-  <style>/* Set some basic styling for the body */
-    body {
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      color: #333;
-      background-color: #fff;
-      padding: 20px;
-    }
-    
-    /* Style the h1 heading */
-    h1 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-    
-    /* Style the paragraph */
-    p {
-      margin-bottom: 20px;
-    }
-    
-    /* Style the button */
-    button {
-      padding: 10px 20px;
-      background-color: #000000;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    
-    /* Style the button on hover */
-    button:hover {
-      background-color: #3e8e41;
-    }
+    <meta charset="UTF-8">
+    <title>ChatGPT</title>
+    <style>
+      body {
+        background-image: url('you.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }  .data-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 555px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
 
-    </style>
+  h2 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Bebas', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  #data-display {
+    color: black;
+    font-size: 18px;
+    font-family: 'Bebas', sans-serif;
+    margin-top: 20px;
+  }
+
+  #file-input {
+    opacity: 0;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Bebas', sans-serif;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+
+</style>
+ </head>
   <body>
-    <h1>Image Preview</h1>
-    <p>Click the button to extract and open the image URL.</p>
-    <button id="extract-btn">Extract</button>
+    <div class="data-box">
+      <h2>Welcome to ChatGPT</h2>
+       <a class="btn" href="https://riyazweb.github.io/home/pomodoro.html">POMODORO</a>
+         <a class="btn" href="https://jeeleft.pages.dev/">left</a>
+         <a class="btn" href="https://chat.openai.com/chat">gpt</a>
+    </div>
   </body>
 </html>
+
+
